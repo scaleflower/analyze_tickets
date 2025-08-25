@@ -1,0 +1,118 @@
+OTRS TICKET ANALYSIS
+==================================================
+Reading Excel file: ticket_search_2025-08-25_00-08.xlsx
+Total records: 1753
+Reading Excel file...
+
+Identified columns: {'created': 'Created', 'closed': 'Closed', 'state': 'State', 'ticket_number': 'Ticket Number'}
+
+Daily Ticket Statistics:
+Date		New	Closed
+------------------------------
+2025-07-07	1	0
+2025-07-09	1	0
+2025-07-22	5	0
+2025-07-23	45	0
+2025-07-24	31	0
+2025-07-25	36	0
+2025-07-26	32	1
+2025-07-27	29	15
+2025-07-28	54	13
+2025-07-29	70	24
+2025-07-30	68	25
+2025-07-31	43	16
+2025-08-01	65	42
+2025-08-02	28	69
+2025-08-03	49	60
+2025-08-04	61	41
+2025-08-05	66	71
+2025-08-06	77	44
+2025-08-07	43	53
+2025-08-08	36	50
+2025-08-09	63	54
+2025-08-10	32	66
+2025-08-11	66	39
+2025-08-12	68	34
+2025-08-13	70	56
+2025-08-14	65	36
+2025-08-15	57	67
+2025-08-16	52	73
+2025-08-17	51	71
+2025-08-18	79	80
+2025-08-19	59	45
+2025-08-20	48	72
+2025-08-21	54	94
+2025-08-22	63	130
+2025-08-23	40	94
+2025-08-24	46	98
+
+Current Open Tickets: 120
+
+Ticket States Distribution:
+Closed: 1441
+Resolved: 178
+New: 78
+Pending: 32
+In progress: 21
+Cancelled: 3
+
+==================================================
+ANALYSIS SUMMARY
+==================================================
+New tickets today: 0
+Total closed tickets: 1633
+Current open tickets: 120
+
+==================================================
+FIRST RESPONSE EMPTY ANALYSIS
+==================================================
+Using column: FirstResponse
+Total records with empty FirstResponse (excluding Closed/Resolved): 16
+ - Before filtering (all empty FirstResponse): 323
+ - Excluded Closed/Resolved tickets: 307
+ - NaN values: 323
+ - Empty strings: 0
+
+Detailed Empty FirstResponse Tickets:
+      Ticket Number        Age             Created              Closed           FirstLock FirstResponse       State    Priority
+ SR2025082470000914   5 h 21 m 2025-08-24 18:46:41                 NaN 2025-08-24 18:46:41           NaN         New    3 normal
+ SR2025082470000576   9 h 54 m 2025-08-24 14:13:40                 NaN 2025-08-24 14:13:41           NaN         New 1 very high
+INC2025082270001677   2 d 8 h  2025-08-22 15:53:51                 NaN 2025-08-22 15:53:51           NaN         New    3 normal
+ SR2025082270000589  2 d 15 h  2025-08-22 08:34:07                 NaN 2025-08-22 08:34:08           NaN In progress    3 normal
+ SR2025082170000796  3 d 10 h  2025-08-21 13:49:50                 NaN 2025-08-21 13:49:53           NaN In progress    3 normal
+ SR2025082170000705  3 d 11 h  2025-08-21 12:16:45                 NaN 2025-08-21 12:16:47           NaN         New    3 normal
+ SR2025082070001751   4 d 6 h  2025-08-20 17:57:51 2025-08-20 18:14:00 2025-08-20 17:57:51           NaN In progress    3 normal
+ CR2025081970000871  5 d 12 h  2025-08-19 11:21:51                 NaN                 NaN           NaN         New      2 high
+ SR2025081370002121  11 d 7 h  2025-08-13 16:54:26                 NaN 2025-08-13 16:54:27           NaN         New    3 normal
+INC2025081170002553  13 d 6 h  2025-08-11 17:38:07                 NaN 2025-08-11 17:38:07           NaN         New    3 normal
+ CR2025081170000724 13 d 12 h  2025-08-11 11:19:33                 NaN                 NaN           NaN         New    3 normal
+ SR2025080670002563  18 d 7 h  2025-08-06 17:02:47                 NaN                 NaN           NaN         New    3 normal
+ SR2025080170001822  23 d 4 h  2025-08-01 19:17:58                 NaN                 NaN           NaN         New    3 normal
+ SR2025080170001135  23 d 9 h  2025-08-01 14:53:20                 NaN                 NaN           NaN     Pending    3 normal
+ SR2025073070001609  25 d 9 h  2025-07-30 14:35:24                 NaN                 NaN           NaN   Cancelled    3 normal
+ SR2025072970001924 26 d 11 h  2025-07-29 13:07:08                 NaN                 NaN           NaN In progress    3 normal
+
+Empty FirstResponse by Priority:
+1 very high: 1
+2 high: 1
+3 normal: 14
+
+==================================================
+OPEN TICKETS BY PRIORITY DISTRIBUTION
+==================================================
+Total open tickets: 120
+
+Open tickets by Priority:
+3 normal: 99
+1 very high: 14
+2 high: 7
+
+==================================================
+OPEN TICKETS BY AGE DISTRIBUTION ANALYSIS
+==================================================
+Open tickets < 24 hours: 19
+Open tickets 24-48 hours: 11
+Open tickets 48-72 hours: 8
+Open tickets > 72 hours: 82
+New tickets today: 0
+Closed tickets today: 0
